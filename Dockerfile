@@ -19,14 +19,14 @@ RUN wget \
 # check conda install successfully
 RUN conda --version
 
+# install juputer note
 RUN conda install jupyter -y
 
-#Return directly under root
-WORKDIR /
+# set the working director to the root
+WORKDIR /root
 
 # create a project_files directory to hold notebooks
-RUN cd root && mkdir project_files
-RUN cd project_files
+RUN mkdir project_files
 
 # open jupyter lab when container starts
 # lauch jupyter notebook server, allow root user (only for dev)
