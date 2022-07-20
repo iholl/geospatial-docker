@@ -2,6 +2,8 @@
 
 This repo contains a Dockerfile which will run ubuntu and jupyter notebook server within an miniconda environment.
 
+[Docker Hub](https://hub.docker.com/repository/docker/iholl/geospatial-python-docker/general)
+
 ## How to use this repo
 
 Clone the repo to your local machine  
