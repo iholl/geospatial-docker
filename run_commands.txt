@@ -1,0 +1,3 @@
+# build and run commands
+docker build -t gis_env:latest .
+docker run -it -p 8888:8888 gis_env
